@@ -33,6 +33,7 @@ export default function Navbar() {
 
                                 <div className="h-4 w-px bg-gray-700 mx-2"></div>
                                 <div className="flex items-center gap-2">
+                                    {/* eslint-disable-next-line @next/next/no-img-element */}
                                     <img
                                         src={session.user?.image || ""}
                                         alt="Avatar"

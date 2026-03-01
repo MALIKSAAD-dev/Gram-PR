@@ -1,7 +1,7 @@
 "use client";
 
 import { signIn } from "next-auth/react";
-import { Github, CheckCircle, Zap, Shield, GitPullRequest, Search, MessageSquare, Bot, Layers } from "lucide-react";
+import { Github, CheckCircle, Zap, Shield, GitPullRequest, MessageSquare, Bot } from "lucide-react";
 import Navbar from "@/components/Navbar";
 
 export default function LandingClient() {
